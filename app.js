@@ -128,22 +128,11 @@ const intv1 = setInterval (() => {
     // display result
     time.innerHTML = `
     <p>Time:</p>
- <div>${Days}<span>Seconds</span></div>    
+ <div>${Days}<span>Days</span></div>    
 <div>${Hours}<span>Hours</span></div>
 <div>${Mins}<span>Mins</span></div>
-<div>${Seconds}<span>Seconds</span></div>
+<div>${Seconds}<span>Secs</span></div>
     `;
-
-    //if launch date passed
-    // if(distance < 0){
-    //     //stop countdown
-    //     clearInterval(intv1);
-    //     //style and output text
-    //     countdown.style.color = '#17a2b8';
-    //     countdown.innerHTML = 'Launched';
-
-    // }
-
 }, 1000) ;
 
 //office status
